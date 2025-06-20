@@ -3,7 +3,7 @@ services:
     name: dojo-karate
     env: python
     buildCommand: ""
-    startCommand: "python app.py"
+    startCommand: "python dojo_web_app"
     envVars:
       - key: FLASK_ENV
         value: production
